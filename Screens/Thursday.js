@@ -18,6 +18,23 @@ export default class Thursday extends React.Component {
       this.props.navigation.navigate("HomeScreen")
     }}/>}
     /> 
+
+<Text>
+      Breakfast(9:00):Fruit Salad
+    </Text>
+ 
+    <Text>
+      Lunch(12:45):Lemon Rice, Coconut Rice
+    </Text>
+
+    <Text>
+      Snack(4:30):Sesame Balls(Only 2)
+    </Text>
+     
+    <Text>
+      Dinner(7:30):Broccoli Curry With Roti
+    </Text>
+
    </View>
   );
  }

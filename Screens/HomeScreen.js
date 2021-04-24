@@ -42,16 +42,19 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    marginTop:20,
     
   },
   button:{
     height:30,
-    width:110,
+    width:130,
     marginTop:20,
     padding:5,
-    borderRadius:10
+    borderRadius:10,
+    backgroundColor:"yellow",
+    alignItems:'center',
+    justifyContent:"center",
+    alignSelf:"center"
   },
   buttonText:{
    textAlign:"center",

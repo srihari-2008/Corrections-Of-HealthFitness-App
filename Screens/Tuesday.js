@@ -18,6 +18,22 @@ export default class Tuesday extends React.Component {
       this.props.navigation.navigate("HomeScreen")
     }}/>}
     />  
+
+<Text>
+      Breakfast(9:00):Fruit Smoothie
+    </Text>
+ 
+    <Text>
+      Lunch(12:45):ChickPeas Curry, Roti
+    </Text>
+
+    <Text>
+      Snack(4:30):Custard
+    </Text>
+     
+    <Text>
+      Dinner(7:30):Paneer Matar Masala, Roti
+    </Text>
    </View>
   );
  }

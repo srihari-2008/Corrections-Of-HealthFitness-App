@@ -18,6 +18,22 @@ export default class Monday extends React.Component {
       this.props.navigation.navigate("HomeScreen")
     }}/>}
     />  
+    <Text>
+      Breakfast(9:00):WholeGrain Bread and Oats
+    </Text>
+ 
+    <Text>
+      Lunch(12:45):Dal Rice, Rasam, Curd
+    </Text>
+
+    <Text>
+      Snack(4:30):Fruits And Dry Fruits
+    </Text>
+     
+    <Text>
+      Dinner(7:30):Roti, Rajma Curry
+    </Text>
+
    </View>
   );
  }

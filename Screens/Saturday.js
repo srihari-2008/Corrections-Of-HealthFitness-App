@@ -18,6 +18,23 @@ export default class Saturday extends React.Component {
       this.props.navigation.navigate("HomeScreen")
     }}/>}
     /> 
+
+ <Text>
+      Breakfast(9:00):Poha
+    </Text>
+ 
+    <Text>
+      Lunch(12:45):Beetroot Curry, Sambar, Yogurt
+    </Text>
+
+    <Text>
+      Snack(4:30):Radish,Carrot ,Orange,Kiwi
+    </Text>
+     
+    <Text>
+      Dinner(7:30):Roti With Brinjal Curry 
+    </Text>
+
    </View>
   );
  }

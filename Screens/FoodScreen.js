@@ -71,6 +71,10 @@ render(){
        </Text>
      </TouchableOpacity>
 
+     <Text>
+       After The Weekdays Are Over Please Shuffle the Foods. 
+     </Text>
+
      
 
      
@@ -84,14 +88,17 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    marginTop:25
   },
   weekdays: {
     height:30,
     width:90,
     marginTop:20,
     padding:5,
-    borderRadius:10
+    borderRadius:10,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor:"skyblue",
+    alignSelf:"center"
   }
 });

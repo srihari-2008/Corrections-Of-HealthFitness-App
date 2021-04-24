@@ -18,6 +18,22 @@ export default class Wednesday extends React.Component {
       this.props.navigation.navigate("HomeScreen")
     }}/>}
     /> 
+
+     <Text>
+      Breakfast(9:00):Tea, Tofu Curry, Aloo Paratha
+    </Text>
+ 
+    <Text>
+      Lunch(12:45):Jeera Rice, Chana Curry
+    </Text>
+
+    <Text>
+      Snack(4:30):Bread And Jam
+    </Text>
+     
+    <Text>
+      Dinner(7:30):Vegetable Sandwich
+    </Text>
    </View>
   );
  }
