@@ -18,19 +18,19 @@ export default class Monday extends React.Component {
       this.props.navigation.navigate("HomeScreen")
     }}/>}
     />  
-    <Text>
+    <Text style={styles.foodText}>
       Breakfast(9:00):WholeGrain Bread and Oats
     </Text>
  
-    <Text>
+    <Text style={styles.foodText}>
       Lunch(12:45):Dal Rice, Rasam, Curd
     </Text>
 
-    <Text>
+    <Text style={styles.foodText}>
       Snack(4:30):Fruits And Dry Fruits
     </Text>
      
-    <Text>
+    <Text style={styles.foodText}>
       Dinner(7:30):Roti, Rajma Curry
     </Text>
 
@@ -43,7 +43,10 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
   },
+  foodText: {
+    fontWeight:"bold",
+    margin:5,
+    alignSelf:"center"
+  }
 });

@@ -19,19 +19,19 @@ export default class Sunday extends React.Component {
     }}/>}
     /> 
 
-    <Text>
+    <Text style={styles.foodText}>
       Breakfast(9:00):Vegetable Salad
     </Text>
  
-    <Text>
+    <Text style={styles.foodText}>
       Lunch(12:45):Tiger Rice, Curd Rice
     </Text>
 
-    <Text>
+    <Text style={styles.foodText}>
       Snack(4:30):Coffee With Some Biscuits 
     </Text>
      
-    <Text>
+    <Text style={styles.foodText}>
       Dinner(7:30):Extra Vegetable Fried Rice
     </Text>
    </View>
@@ -43,7 +43,12 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+   
   },
+
+  foodText: {
+    fontWeight:"bold",
+    margin:5,
+    alignSelf:"center"
+  }
 });
